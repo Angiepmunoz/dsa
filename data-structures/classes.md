@@ -61,8 +61,8 @@ firstStudent.fullName()
 
 ```
 
-** Class Methods**
-- the method is pertanent to classes but not the instances
+**Class Methods**
+- the method is pertinent to classes but not the instances
     - the instance cannot access it and can only be access by the class itself
     - has the static keyword
 

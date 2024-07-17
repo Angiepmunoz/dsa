@@ -1,16 +1,16 @@
 // Bubble sort
 
 function bubbleSort(array) {
-  // [5,1,5,8,0]
+  // [5,8,1,5,0]
   let noSwaps;
-  for (let i = array.length - 1; i >= 0; i--) {
+  for (let i = array.length - 1; i >= 0; i--) { // i = 4
     // i = 4
     noSwaps = true;
-    for (let j = 0; j <= i - 1; j++) {
-      // j = 2 , 2 < 3
+    for (let j = 0; j <= i - 1; j++) { 
+      // j = 0 , 
       if (array[j] > array[j + 1]) {
-        // 8 > 5
-        let temp = array[j]; // 8
+        // 5 > 8
+        let temp = array[j]; // 5
         array[j] = array[j + 1]; //
         array[j + 1] = temp;
         noSwaps = false;
